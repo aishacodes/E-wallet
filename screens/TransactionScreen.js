@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#7e3bff',
     paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
-    paddingBottom: StatusBar.currentHeight,
+    paddingBottom: StatusBar.currentHeight/2,
     color: 'white'
   },
   topNav: {
